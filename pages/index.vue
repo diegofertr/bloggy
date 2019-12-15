@@ -6,24 +6,11 @@
         bloggy
       </h1>
       <h2 class="subtitle">
-        Primera página construída con Nuxt
+        Blog personal construído con nuxt
       </h2>
-      <!-- <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div> -->
+      <div class="links">
+        <nuxt-link to="/profile">About me</nuxt-link>
+      </div>
     </div>
   </div>
 </template>
@@ -53,7 +40,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 80px;
   color: #35495e;
   letter-spacing: 1px;
 }
@@ -68,5 +55,21 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.links a {
+  background-color: #2196f3;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.links a:hover {
+  background-color: #1976d2;
+  color: white;
+  text-decoration: underline;
+  padding: 5px;
+  border-radius: 5px;
 }
 </style>
