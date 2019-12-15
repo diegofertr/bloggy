@@ -1,7 +1,7 @@
 <template>
   <div class="header__main">
     <div class="header__main-img">
-      <img src="../assets/logo-main.png" alt="logo-main">
+      <img src="../assets/logo-bg.png" alt="logo-main">
     </div>
     <nav class="header__main-nav">
       <nuxt-link to="/">Home</nuxt-link>
