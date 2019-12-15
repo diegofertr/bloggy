@@ -1,26 +1,26 @@
 <template>
   <div class="container">
     <div>
+      <app-header></app-header>
       <logo />
       <h1 class="title">
-        bloggy
+        diegofertr
       </h1>
       <h2 class="subtitle">
         Blog personal construído con nuxt
       </h2>
-      <div class="links">
-        <nuxt-link to="/profile">About me</nuxt-link>
-      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from '~/components/Logo'
+import AppHeader from '~/components/AppHeader'
 
 export default {
   components: {
-    Logo
+    Logo,
+    AppHeader
   }
 }
 </script>
